@@ -1,0 +1,109 @@
+*{
+    box-sizing:border-box;
+  }
+  
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ede8e8;
+  }
+  
+  header {
+    background-color: #ede8e8;
+    color: rgb(69, 85, 99);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    margin: 0px 10px;
+    padding: 8px 20px;
+/* font-size: 16px; */
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    background-color: #6f6382;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    /* margin: auto; */
+  }
+  
+  .loader {
+    border: 6px solid #7d7ac9;
+    border-top: 6px solid #0a0ae8;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: none;
+    margin: 0 auto;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  #output{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid #c7c7e4;
+    margin: 5px;
+    padding: 12px;
+
+  }
+  #limitpagesize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+  }
+  
+  .repository {
+    border: 1px solid #353091;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width:48%;
+    display: block;
+    display:flex;
+    flex-direction: row;
+    float:left;
+    background: #d6d3d3;
+    border-radius: 4px;
+    
+  }
+  img{
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  
+  #pagination {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  
+  #pagination button {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  

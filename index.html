@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Repositories Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="heading">GitHub Repositories Viewer</h1>
+  <header>
+    <label for="username">GitHub Username:</label>
+    <input type="text" id="username" placeholder="Enter GitHub Username" value="gulvinderchauhan">
+    <button onclick="fetchRepositories(10)">Show Repositories</button>
+    <div id="loader" class="loader"></div>
+  </header>
+
+  <main>
+    
+    
+    <div id="output">
+        <div id="repositories"></div>
+    </div>
+    <div id="pagination"></div>
+    <div id="limitpagesize">
+      <label for="Repos per page">Repos per page</label>
+      <input type="number" id="limitRepo">
+      <button onclick="fetchRepositoriesLimit()">Submit</button>
+    </div>
+    
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
